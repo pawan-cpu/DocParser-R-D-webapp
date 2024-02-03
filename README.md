@@ -1,25 +1,5 @@
 # InnoTutor
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Technical Architecture](#technical-architecture)
-    - [Content Upload and Extraction Flow](#content-upload-and-extraction-flow)
-    - [RAG Prompting Flow](#rag-prompting-flow)
-    - [Continuous Integration and Deployment](#continuous-integration-and-deployment)
-- [Directory Structure](#directory-structure)
-  - [/pages](#pages)
-  - [/app](#app)
-  - [/components](#components)
-  - [/hooks](#hooks)
-  - [/search](#search)
-  - [/prompts](#prompts)
-  - [/types](#types)
-  - [/cosmosPostgres](#cosmospostgres)
-  - [/services](#services)
-  - [/documentIntelligence](#documentintelligence)
-- [Running the Application](#running-the-app)
-
 ## Overview
 
 InnoTutor is not just an educational tool; it's a revolution in learning. By harnessing the power of Azure AI, including GPT-4 and Azure's diverse databases and services, we've transcended traditional learning methods. Our platform transforms any text or file into an immersive tutoring experience, offering personalized study guides, multiple-choice tests, long answer formats, and context-driven sessions. This is education reimagined.
