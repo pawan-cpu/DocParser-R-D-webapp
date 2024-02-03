@@ -7,40 +7,42 @@
 - With the help of our platform, you can turn any text or file into an engaging tutoring session that includes context-driven learning, multiple-choice exams, extended answer formats, and personalised study guides.
 - This is ~~education reimagined~~ new take on education.
 
-## Technical Architecture
+## :computer: Technical Architecture
 
-- This system leverages the power of React and Next.js for a dynamic front-end, Azure AD for secure authentication, PostgreSQL for robust database management, and Azure Cosmos DB alongside OpenAI's GPT-4 for intelligent data handling and conversational AI.
-- Designed with scalability and user experience in mind, ChatEDU provides a seamless educational journey from information retrieval to knowledge testing.
+- This solution makes use of PostgreSQL for reliable database management, Microsoft Entra ID for secure authentication, Azure Cosmos DB for dynamic front-end development, and OpenAI's GPT-4 for intelligent data handling and conversational AI.
+- InnoTutor offers a smooth learning experience from information retrieval to knowledge assessment because it was designed with scalability and user experience in mind.
 
 ![Overall.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/overall.png)
 
 ### Content Upload and Extraction Flow
 
-- The uploading flow in InnoTutor allows users to add files or text via a client interface, which then posts the data to the endpoints. 
-- This data is processed — text is extracted from files using Azure AI Document Intelligence — and subsequently stored in Azure Cosmos DB for further use within the platform.
+- Through a client interface, users can submit files or text to InnoTutor, and the data is then sent to the endpoints. 
+- After processing (text is taken out of files using Azure AI Document Intelligence), this data is saved in Azure Cosmos DB so that it can be used in other platforms.
 
 ![Uploading.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/uploading.png)
 
 ### RAG Prompting Flow
 
--The Retrieval-Augmented Generation (RAG) prompting flow in InnoTutor begins when a user submits a prompt through the client interface, which sends a request to the `/api/chat` endpoint. 
-- The system then retrieves relevant information from the Azure Cosmos DB database to provide context to the generative language model (LLM), which uses this data to create personalized educational material.
-- Finally, the response is streamed back to the client, providing the user with an answer that is augmented by the retrieved data, ensuring a more accurate and contextual interaction.
-
+- InnoTutor's Retrieval-Augmented Generation (RAG) prompting flow begins when a user provides a prompt via the client interface, which triggers a request to the '/api/chat' endpoint. 
+- The system then extracts relevant information from the Azure Cosmos DB database to give context for the generative language model (LLM), which uses the data to generate personalised educational content.
+- Ultimately, the response is broadcast back to the client, giving the user an answer enhanced by the data that was retrieved, guaranteeing a more precise and contextualised interaction.
 ![Prompting.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/prompting.png)
 
 
 ### :outbox_tray: Inside The Box(Azure AI Search)
 
-- We utilize Azure AI search to index the `users` and `notebooks` collections of our database.
-- This then allows users to perform fast and efficient searches on the data through the client.
-- The search service is automatically synced with the database, ensuring that the search results are always up-to-date.
+- We index our database's `users` and `notebooks` collections using Azure AI search.
+- As a result, users are able to search the data through the client quickly and effectively.
+- The search results are constantly current since the search service and database are automatically synchronised.
 
 ![Search.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/search.png)
 
 ### Continuous Integration and Deployment
 
-- The CI/CD pipeline for InnoTutor is implemented using GitHub Actions, which automates the process of code integration, testing, and deployment upon every push or pull request to the repository.
-- Once the automated workflows verify the changes, the application is deployed to Azure Static Web Apps, ensuring continuous delivery of the latest version of the platform.
+- GitHub Actions is used to construct the CI/CD pipeline for InnoTutor. With each push or pull request to the repository, the code integration, testing, and deployment processes are automated.
+- The application is deployed to Azure Static Web Apps after the automatic procedures have confirmed the modifications, guaranteeing continuous delivery of the most recent platform version.
 
 ![Continuous Integration and Deployment Workflow with Next.js, GitHub, and Azure.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/deployment.png)
+
+### :scroll: Licence
+InnoTutor is available under the MIT license. See the LICENSE file for more info.
