@@ -46,7 +46,7 @@ const Navbar: React.FC<Props> = ({ isOnboarding }) => {
                 >
                     <Image
                         src={'/logo.png'}
-                        alt="ChatEDU Logo"
+                        alt="InnoTutor Logo"
                         boxSize={'40px'}
                     />
                     <Heading
@@ -55,13 +55,13 @@ const Navbar: React.FC<Props> = ({ isOnboarding }) => {
                         <Text
                             as='span'
                         >
-                            Chat
+                            Inno
                         </Text>
                         <Text
                             as='span'
                             color='brand.500'
                         >
-                            EDU
+                            Tutor
                         </Text>
                     </Heading>
                 </HStack>

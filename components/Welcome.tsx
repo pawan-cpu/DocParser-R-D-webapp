@@ -24,13 +24,13 @@ const Welcome = () => {
                 <Text
                     as='span'
                 >
-                    Welcome to Chat
+                    Welcome to Inno
                 </Text>
                 <Text
                     as='span'
                     color={'brand.500'}
                 >
-                    EDU
+                    Tutor
                 </Text>
             </Heading>
             <Text
@@ -42,7 +42,7 @@ const Welcome = () => {
                 fontWeight={'semibold'}
                 opacity={0.5}
             >
-                Your Personal AI-Powered Tutor
+                Empowering Educators, Elevating Exams
             </Text>
         </VStack>
     );

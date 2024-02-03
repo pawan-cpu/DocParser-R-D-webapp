@@ -9,7 +9,7 @@ const HomePage: NextPage = () => {
   return (
       <>
           <Head>
-              <title>ChatEDU</title>
+              <title>InnoTutor</title>
               <meta name="description" content="Supercharge your learning with AI" />
               <meta name="viewport" content="width=device-width, height=device-height,  initial-scale=1.0, user-scalable=no, user-scalable=0;" />
               <meta property="og:image" content="https://www.chatedu.tech/api/og"/>
