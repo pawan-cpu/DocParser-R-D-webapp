@@ -1,11 +1,11 @@
 # InnoTutor
 
-## Drumroll, here...comes LenDen 
+## :fleur_de_lis: Drumroll, here...comes InnoTutor
 
-- InnoTutor is not just an educational tool; it's a revolution in learning.
-- By harnessing the power of Azure AI, including GPT-4 and Azure's diverse databases and services, we've transcended traditional learning methods.
-- Our platform transforms any text or file into an immersive tutoring experience, offering personalized study guides, multiple-choice tests, long answer formats, and context-driven sessions.
-- This is education reimagined.
+- InnoTutor is a revolution in learning, not merely a teaching tool.
+- We've gone beyond conventional learning techniques by utilising the capabilities of Azure AI, including GPT-4 and Azure's varied datasets and services.
+- With the help of our platform, you can turn any text or file into an engaging tutoring session that includes context-driven learning, multiple-choice exams, extended answer formats, and personalised study guides.
+- This is ~~education reimagined~~ new take on education.
 
 ## Technical Architecture
 
@@ -30,7 +30,7 @@
 ![Prompting.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/prompting.png)
 
 
-### Azure AI Search
+### :outbox_tray: Inside The Box(Azure AI Search)
 
 - We utilize Azure AI search to index the `users` and `notebooks` collections of our database.
 - This then allows users to perform fast and efficient searches on the data through the client.
