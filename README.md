@@ -14,14 +14,14 @@
 
 ![Overall.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/overall.png)
 
-### Content Upload and Extraction Flow
+### :zap: Content Upload and Extraction Flow
 
 - Through a client interface, users can submit files or text to InnoTutor, and the data is then sent to the endpoints. 
 - After processing (text is taken out of files using Azure AI Document Intelligence), this data is saved in Azure Cosmos DB so that it can be used in other platforms.
 
 ![Uploading.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/uploading.png)
 
-### RAG Prompting Flow
+### :file_folder: RAG Prompting Flow
 
 - InnoTutor's Retrieval-Augmented Generation (RAG) prompting flow begins when a user provides a prompt via the client interface, which triggers a request to the '/api/chat' endpoint. 
 - The system then extracts relevant information from the Azure Cosmos DB database to give context for the generative language model (LLM), which uses the data to generate personalised educational content.
@@ -37,7 +37,7 @@
 
 ![Search.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/search.png)
 
-### Continuous Integration and Deployment
+### :card_index_dividers: Continuous Integration and Deployment
 
 - GitHub Actions is used to construct the CI/CD pipeline for InnoTutor. With each push or pull request to the repository, the code integration, testing, and deployment processes are automated.
 - The application is deployed to Azure Static Web Apps after the automatic procedures have confirmed the modifications, guaranteeing continuous delivery of the most recent platform version.
