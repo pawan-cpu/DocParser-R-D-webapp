@@ -1,8 +1,8 @@
-# InnoTutor
+# InnoTutor Presents ChatEDU
 
-## :fleur_de_lis: Drumroll, here...comes InnoTutor
+## :fleur_de_lis: Drumroll, here...comes InnoTutor's ChatEDU
 
-- InnoTutor is a revolution in learning, not merely a teaching tool.
+- InnoTutor's ChatEDU is a revolution in learning, not merely a teaching tool.
 - We've gone beyond conventional learning techniques by utilising the capabilities of Azure AI, including GPT-4 and Azure's varied datasets and services.
 - With the help of our platform, you can turn any text or file into an engaging tutoring session that includes context-driven learning, multiple-choice exams, extended answer formats, and personalised study guides.
 - This is ~~education reimagined~~ new take on education.
