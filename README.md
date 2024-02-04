@@ -21,6 +21,19 @@
 
 ![Uploading.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/uploading.png)
 
+### Challenges we ran into
+
+- Integration of GPT-4 & Azure Services: Integrating the latest AI advancements with Azure services was no easy task. It required meticulous 
+ planning and adaptation to ensure seamless harmony. We overcame this hurdle through iterative testing, and leveraging the extensive 
+ documentation provided by both OpenAI and Microsoft Azure.
+
+- Data Processing and Storage Optimization: Processing and storing large amounts of data can be challenging, but with Azure AI Document 
+ Intelligence, it's a breeze! Speed and scalability are no longer an issue. We optimized our code, used parallel processing, and fine-tuned 
+ Azure Cosmos DB. The result? Improved performance and responsiveness!
+
+- Synchronization of Search Service and Database: We tackled the challenge of keeping search results current by implementing real-time 
+  synchronization mechanisms. Now our search service always displays the latest information from the database!
+
 ### :file_folder: RAG Prompting Flow
 
 - InnoTutor's Retrieval-Augmented Generation (RAG) prompting flow begins when a user provides a prompt via the client interface, which triggers a request to the '/api/chat' endpoint. 
