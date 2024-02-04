@@ -21,7 +21,7 @@
 
 ![Uploading.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/uploading.png)
 
-### Challenges we ran into
+### :scroll: Challenges we ran into
 
 - Integration of GPT-4 & Azure Services: Integrating the latest AI advancements with Azure services was no easy task. It required meticulous 
  planning and adaptation to ensure seamless harmony. We overcame this hurdle through iterative testing, and leveraging the extensive 
