@@ -57,5 +57,12 @@
 
 ![Continuous Integration and Deployment Workflow with Next.js, GitHub, and Azure.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/deployment.png)
 
+### Try it out
+- https://azure.chatedu.io/
+
+### Github
+Github: https://github.com/akashpanda122/innotutor
+Demo Link: https://www.loom.com/share/b0c0c2268cf54bcbbe53f8995a91ef22?sid=5cb6d3ed-0d50-43e5-9b51-ffc717f82503
+
 ### :scroll: Licence
 InnoTutor is available under the MIT license. See the LICENSE file for more info.
