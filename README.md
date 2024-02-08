@@ -27,10 +27,12 @@
 
 ![Overall.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/overall.png)
 
-### :zap: Content Upload and Extraction Flow
+### :zap: Content Upload and Extraction Flow 
 
 - Through a client interface, users can submit files or text to InnoTutor, and the data is then sent to the endpoints. 
 - After processing (text is taken out of files using Azure AI Document Intelligence), this data is saved in Azure Cosmos DB so that it can be used in other platforms.
+
+### UML Diagram
 
 ![Uploading.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/uploading.png)
 
