@@ -1,4 +1,4 @@
-# InnoTutor Presents ChatEDU(Team- Ashfire)
+# InnoTutor Presents ChatEDU(Team:Ashfire)
 
 ## :fleur_de_lis: Drumroll, here...comes InnoTutor's ChatEDU
 
