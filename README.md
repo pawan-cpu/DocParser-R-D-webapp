@@ -5,12 +5,25 @@
 - InnoTutor's ChatEDU is a revolution in learning, not merely a teaching tool.
 - We've gone beyond conventional learning techniques by utilising the capabilities of Azure AI, including GPT-4 and Azure's varied datasets and services.
 - With the help of our platform, you can turn any text or file into an engaging tutoring session that includes context-driven learning, multiple-choice exams, extended answer formats, and personalised study guides.
-- This is ~~education reimagined~~ new take on education.
+- This is ~~education reimagined~~ paradigm shift on education.
+
+## Problem Statement
+- In today's rapidly evolving educational landscape, traditional teaching methods often fall short in providing personalized and contextualized learning experiences. To address this challenge, InnoTutor has developed ChatEDU, a revolutionary educational platform powered by Azure AI technologies and OpenAI's GPT-4.
+- However, despite its advanced capabilities, InnoTutor faces the need to ensure seamless content upload and extraction processes, optimize the Retrieval-Augmented Generation (RAG) prompting flow, and streamline the continuous integration and deployment (CI/CD) pipeline using GitHub Actions.
+- As such, InnoTutor seeks to formulate a comprehensive solution that enhances data processing efficiency, improves generative language model performance, and automates deployment processes to ensure consistent delivery of the platform's latest features and updates.
 
 ## :computer: Technical Architecture
 
 - This solution makes use of PostgreSQL for reliable database management, Microsoft Entra ID for secure authentication, Azure Cosmos DB for dynamic front-end development, and OpenAI's GPT-4 for intelligent data handling and conversational AI.
 - InnoTutor offers a smooth learning experience from information retrieval to knowledge assessment because it was designed with scalability and user experience in mind.
+  
+## Tech Stack
+- Microsoft Entra ID(Azure AD)
+- Next.js
+- Azure AI Search
+- Chakra UI
+- Azure AI Document Intellignce
+- Azure Cosmos DB
 
 ![Overall.png](https://github.com/akashpanda122/innotutor/blob/main/public/architecture/overall.png)
 
