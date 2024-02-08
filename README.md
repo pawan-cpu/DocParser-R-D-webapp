@@ -20,6 +20,7 @@
 ## Tech Stack
 - Microsoft Entra ID(Azure AD)
 - Next.js
+- Typescript
 - Azure AI Search
 - Chakra UI
 - Azure AI Document Intellignce
